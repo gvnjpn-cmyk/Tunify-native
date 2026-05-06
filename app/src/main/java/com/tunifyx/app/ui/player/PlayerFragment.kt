@@ -72,6 +72,7 @@ class PlayerFragment : Fragment(R.layout.fragment_player) {
             vm.currentTrack.collectLatest { track ->
                 track ?: return@collectLatest
                 b.tvTitle.text  = track.title
+                b.tvTitle.isSelected = true  // enable marquee scroll
                 b.tvArtist.text = track.artist
                 Glide.with(this@PlayerFragment)
                     .load(track.thumbnail)
