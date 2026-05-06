@@ -158,8 +158,9 @@ object PlayerManager {
     fun syncPlayState() {
         _isPlaying.value = MusicService.player?.isPlaying == true
     }
-}
 
+    // ── Insert track at front of upNext queue ─────────────────
     fun clearUpNextAndPrepend(track: Track, current: List<Track>) {
         _upNext.value = listOf(track) + current
     }
+}
