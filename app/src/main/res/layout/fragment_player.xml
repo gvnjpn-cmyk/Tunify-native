@@ -81,7 +81,7 @@
                 android:singleLine="true"
                 android:ellipsize="marquee"
                 android:marqueeRepeatLimit="marquee_forever"
-                android:selected="true"/>
+                
 
             <TextView
                 android:id="@+id/tvArtist"
