@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <base-config cleartextTrafficPermitted="false">
+        <trust-anchors><certificates src="system"/></trust-anchors>
+    </base-config>
+    <domain-config cleartextTrafficPermitted="false">
+        <domain includeSubdomains="true">youtube.com</domain>
+        <domain includeSubdomains="true">googleapis.com</domain>
+        <domain includeSubdomains="true">ytimg.com</domain>
+        <domain includeSubdomains="true">pipedapi.kavin.rocks</domain>
+        <domain includeSubdomains="true">projectsegfau.lt</domain>
+        <domain includeSubdomains="true">garudalinux.org</domain>
+        <domain includeSubdomains="true">riverside.rocks</domain>
+        <domain includeSubdomains="true">snopyta.org</domain>
+        <domain includeSubdomains="true">lrclib.net</domain>
+        <domain includeSubdomains="true">lyrics.ovh</domain>
+        <trust-anchors><certificates src="system"/></trust-anchors>
+    </domain-config>
+</network-security-config>
