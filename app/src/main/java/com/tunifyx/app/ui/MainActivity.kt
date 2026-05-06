@@ -80,6 +80,7 @@ class MainActivity : AppCompatActivity() {
                 } else {
                     b.playerBar.root.visibility = View.VISIBLE
                     b.playerBar.tvTitle.text  = track.title
+                    b.playerBar.tvTitle.isSelected = true  // enable marquee scroll
                     b.playerBar.tvArtist.text = track.artist
                     Glide.with(this@MainActivity)
                         .load(track.thumbnail)
