@@ -30,14 +30,12 @@ class MainActivity : AppCompatActivity() {
         // Dark system bars
         window.statusBarColor     = getColor(R.color.bg_primary)
         window.navigationBarColor = getColor(R.color.bg_primary)
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
-            window.insetsController?.let {
-                it.hide(android.view.WindowInsets.Type.statusBars())
-            }
-        }
-
         b = ActivityMainBinding.inflate(layoutInflater)
         setContentView(b.root)
+
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
+            window.insetsController?.hide(android.view.WindowInsets.Type.statusBars())
+        }
 
         // Start MusicService
         val serviceIntent = Intent(this, MusicService::class.java)
