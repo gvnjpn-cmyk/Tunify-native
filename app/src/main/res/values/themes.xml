@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.TunifyX" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#1DB954</item>
+        <item name="colorPrimaryVariant">#17a34a</item>
+        <item name="colorOnPrimary">#000000</item>
+        <item name="colorSecondary">#1DB954</item>
+        <item name="colorSurface">#282828</item>
+        <item name="colorOnSurface">#FFFFFF</item>
+        <item name="android:colorBackground">#121212</item>
+        <item name="android:windowBackground">#121212</item>
+        <item name="android:statusBarColor">#121212</item>
+        <item name="android:navigationBarColor">#121212</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="android:textColorSecondary">#B3B3B3</item>
+    </style>
+
+    <style name="Theme.TunifyX.FullScreen" parent="Theme.TunifyX">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+</resources>
