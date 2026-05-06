@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TunifyX</string>
+    <string name="home">Home</string>
+    <string name="search">Cari</string>
+    <string name="library">Library</string>
+    <string name="search_hint">Cari lagu, artis, mood…</string>
+    <string name="no_connection">Tidak ada koneksi internet</string>
+    <string name="loading">Memuat…</string>
+    <string name="add_to_queue">Tambah ke Antrian</string>
+    <string name="play_all">Putar Semua</string>
+</resources>
