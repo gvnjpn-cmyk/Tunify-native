@@ -1,0 +1,7 @@
+-keep class androidx.media3.** { *; }
+-keep class com.tunifyx.app.data.model.** { *; }
+-keep class com.tunifyx.app.data.api.** { *; }
+-keepattributes Signature
+-keepattributes *Annotation*
+-dontwarn okhttp3.**
+-dontwarn retrofit2.**
