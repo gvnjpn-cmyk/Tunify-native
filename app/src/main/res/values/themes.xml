@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <style name="Theme.TunifyX" parent="Theme.MaterialComponents.DayNight.NoActionBar">
-        <item name="colorPrimary">#1DB954</item>
-        <item name="colorPrimaryVariant">#17a34a</item>
-        <item name="colorOnPrimary">#000000</item>
-        <item name="colorSecondary">#1DB954</item>
-        <item name="colorSurface">#282828</item>
-        <item name="colorOnSurface">#FFFFFF</item>
-        <item name="android:colorBackground">#121212</item>
-        <item name="android:windowBackground">#121212</item>
-        <item name="android:statusBarColor">#121212</item>
-        <item name="android:navigationBarColor">#121212</item>
+        <item name="colorPrimary">@color/accent_green</item>
+        <item name="colorPrimaryVariant">@color/accent_green_dim</item>
+        <item name="colorOnPrimary">@color/bg_primary</item>
+        <item name="colorSecondary">@color/accent_green</item>
+        <item name="colorSurface">@color/bg_card</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="android:colorBackground">@color/bg_primary</item>
+        <item name="android:windowBackground">@color/bg_primary</item>
+        <item name="android:statusBarColor">@color/bg_primary</item>
+        <item name="android:navigationBarColor">@color/bg_primary</item>
         <item name="android:windowLightStatusBar">false</item>
-        <item name="android:textColorPrimary">#FFFFFF</item>
-        <item name="android:textColorSecondary">#B3B3B3</item>
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
     </style>
 
     <style name="Theme.TunifyX.FullScreen" parent="Theme.TunifyX">
